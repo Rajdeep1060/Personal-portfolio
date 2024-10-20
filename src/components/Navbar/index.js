@@ -6,6 +6,7 @@ import { Bio } from "../../data/constants";
 import {
   ButtonContainer,
   GitHubButton,
+  LeetCodeButton,
   MobileIcon,
   MobileLink,
   MobileMenu,
@@ -53,6 +54,9 @@ const Navbar = () => {
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
             Github Profile
+          </GitHubButton>
+          <GitHubButton href={Bio.leetcode} target="_blank">
+          LeetCode Profile
           </GitHubButton>
         </ButtonContainer>
         {isOpen && (

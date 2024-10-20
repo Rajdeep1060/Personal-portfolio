@@ -85,6 +85,7 @@ export const GitHubButton = styled.a`
   padding: 0 20px;
   font-weight: 500;
   text-decoration: none;
+  margin-left:4px;
   font-size: 16px;
   transition: all 0.6s ease-in-out;
     :hover {
@@ -95,6 +96,7 @@ export const GitHubButton = styled.a`
     font-size: 14px;
     }
 `;
+
 
 export const ButtonContainer = styled.div`
   width: 80%;  
